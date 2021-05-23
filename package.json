@@ -9,12 +9,46 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "react-native",
+    "snippets",
+    "blade",
+    "component",
+    "components",
+    "javascript",
+    "typescript",
+    "jsx",
+    "tsx"
+  ],
   "contributes": {
     "snippets": [
       {
         "language": "javascript",
         "path": "./snippets/index.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/index.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/index.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/index.code-snippets"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/index.code-snippets"
       }
     ]
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json-merger": "^1.1.6"
+  },
+  "scripts": {
+    "generatesnippets": "node ./scripts/generateSnippets.js"
   }
 }
