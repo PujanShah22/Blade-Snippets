@@ -1,20 +1,20 @@
 {
-    "name": "blade-snippets",
-    "displayName": "Blade Snippets",
-    "description": "This extension will help you to use blade components with short commands.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "blade-snippets",
+  "displayName": "Blade Snippets",
+  "description": "This extension will help you to use blade components with short commands.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/index.code-snippets"
+      }
+    ]
+  }
 }

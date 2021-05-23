@@ -1,0 +1,16 @@
+{
+  "Checkbox from Blade": {
+    "prefix": "Checkbox",
+    "body": [
+      "<Checkbox",
+      "  checked={${1|true,false|}}",
+      "  size=\"${2|small,medium,large|}\"",
+      "  title=\"$3\"",
+      "  disabled={${4|true,false|}}",
+      "  variantColor=\"$5\"",
+      "  onChange={$6}",
+      "/>"
+    ],
+    "description": "Checkbox from Blade"
+  }
+}

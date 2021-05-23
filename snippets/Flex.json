@@ -1,0 +1,13 @@
+{
+  "Flex from Blade": {
+    "prefix": "Flex",
+    "body": [
+      "<Flex flex={${1:1}} flexDirection=\"${2|column,row,column-reverse,row-reverse|}\" ",
+        "justifyContent=\"${3|flex-start,center,flex-end,space-around,space-between,space-evenly|}\"",
+        "alignItems=\"${4|flex-start,center,flex-end,baseline,stretch|}\">",
+      "  $5",
+      "</Flex>"
+    ],
+    "description": "Flex from Blade"
+  }
+}

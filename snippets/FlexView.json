@@ -1,0 +1,15 @@
+{
+  "Flex with View from Blade": {
+    "prefix": "FlexView",
+    "body": [
+      "<Flex flex={${1:1}} flexDirection=\"${2|column,row,column-reverse,row-reverse|}\" ",
+      "justifyContent=\"${3|flex-start,center,flex-end,space-around,space-between,space-evenly|}\"",
+      "alignItems=\"${4|flex-start,center,flex-end,baseline,stretch|}\">",
+      " <View>",
+      "   $5",
+      " </View>",
+      "</Flex>"
+    ],
+    "description": "Flex with View from Blade"
+  }
+}

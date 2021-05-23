@@ -1,0 +1,7 @@
+{
+  "Position from Blade": {
+    "prefix": "Position",
+    "body": ["<Position position=\"${1|relative,absolute|}\" zIndex={${2:1}}>", "   $3", "</Position>"],
+    "description": "Position from Blade"
+  }
+}

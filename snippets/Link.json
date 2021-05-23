@@ -1,0 +1,7 @@
+{
+  "Link from Blade": {
+    "prefix": "Link",
+    "body": ["<Link size=\"${1|xxsmall,xsmall,small,medium,large|}\" onClick={()=>{$2}}>", " $3", "</Link>"],
+    "description": "Link from Blade"
+  }
+}

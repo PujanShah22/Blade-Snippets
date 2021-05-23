@@ -1,0 +1,11 @@
+{
+	"Space with margin from Blade": {
+		"prefix": "SpaceMargin",
+		"body": [
+		  "<Space margin={[${1:0}]}>",
+		  "  $2",
+		  "</Space>"
+		],
+		"description": "Space with only margin"
+	  }
+}

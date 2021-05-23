@@ -1,0 +1,11 @@
+{
+	"Space from Blade": {
+		"prefix": "Space",
+		"body": [
+		  "<Space margin={[${1:0}]} padding={[${2:0}]}>",
+		  "  $3",
+		  "</Space>"
+		],
+		"description": "Space from Blade"
+	  }
+}

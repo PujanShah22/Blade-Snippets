@@ -1,0 +1,7 @@
+{
+  "Icon from Blade": {
+    "prefix": "Icon",
+    "body": ["<Icon name=\"$1\" size=\"${2|xsmall,small,medium,large,xlarge|}\" fill=\"$3\" />"],
+    "description": "Icon from Blade"
+  }
+}

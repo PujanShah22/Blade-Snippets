@@ -1,0 +1,13 @@
+{
+  "Text from Blade": {
+    "prefix": "Text",
+    "body": [
+      "<Text size=\"${1|xxsmall,xsmall,small,medium,large,xlarge,xxlarge,xxxlarge,xxxxlarge|}\"",
+      "weight=\"${2|light,regular,bold|}\"",
+      "color=\"$3\">",
+      "    $4",
+      "</Text>"
+    ],
+    "description": "Text from Blade"
+  }
+}

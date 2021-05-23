@@ -1,0 +1,7 @@
+{
+  "Size from Blade": {
+    "prefix": "Size",
+    "body": ["<Size width={$1} height={$2}>", "  $3", "</Size>"],
+    "description": "Size from Blade"
+  }
+}

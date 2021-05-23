@@ -1,0 +1,7 @@
+{
+  "Indicator from Blade": {
+    "prefix": "Indicator",
+    "body": ["<Indicator variant=\"${1|positive,negative,information,warning,neutral|}\" fill=\"${2|solid,empty|}\"/>"],
+    "description": "Indicator from Blade"
+  }
+}

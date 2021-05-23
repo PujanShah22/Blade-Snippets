@@ -1,0 +1,7 @@
+{
+  "ScrollView from Blade": {
+    "prefix": "ScrollView",
+    "body": ["<ScrollView>", "    $1", "</ScrollView>"],
+    "description": "ScrollView from Blade"
+  }
+}

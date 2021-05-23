@@ -1,0 +1,225 @@
+{
+  "Badge from Blade": {
+    "prefix": "Badge",
+    "body": [
+      "<Badge variant=\"${1|positive,negative,information,warning,neutral|}\" fill=\"${2|subtle,solid|}\" shape=\"${3|stadium,rectangle|}\">",
+      "  {`${$4}`}",
+      "</Badge>"
+    ],
+    "description": "Badge from Blade"
+  },
+  "Button from blade": {
+    "prefix": "Button",
+    "body": [
+      "<Button ",
+      "  variant=\"${1|primary,secondary,tertiary|}\"",
+      "  variantColor=\"$2\"",
+      "  size=\"${3|xsmall,small,medium,large|}\"",
+      "  disabled={${4|true,false|}}",
+      "  block={${5|true,false|}} ",
+      "  onClick={$6}>",
+      "    $7",
+      "</Button>"
+    ],
+    "description": ""
+  },
+  "Button with icon from Balde": {
+    "prefix": "ButtonIcon",
+    "body": [
+      "<Button ",
+      "  variant=\"${1|primary,secondary,tertiary|}\"",
+      "  variantColor=\"$2\"",
+      "  size=\"${3|xsmall,small,medium,large|}\"",
+      "  disabled={${4|true,false|}}",
+      "  block={${5|true,false|}}",
+      "  icon=\"$6\"",
+      "  iconAlign=\"${7|left,right|}\"",
+      "  onClick={$8}>",
+      "    $9",
+      "</Button>"
+    ],
+    "description": ""
+  },
+  "Card from Blade": {
+    "prefix": "Card",
+    "body": [
+      "<Card variant=\"${1|shadowed,outlined|}\" backgroundColor=\"$2\" borderColor=\"$3\">",
+      "  $4",
+      "</Card>"
+    ],
+    "description": "Card from blade"
+  },
+  "Checkbox from Blade": {
+    "prefix": "Checkbox",
+    "body": [
+      "<Checkbox",
+      "  checked={${1|true,false|}}",
+      "  size=\"${2|small,medium,large|}\"",
+      "  title=\"$3\"",
+      "  disabled={${4|true,false|}}",
+      "  variantColor=\"$5\"",
+      "  onChange={$6}",
+      "/>"
+    ],
+    "description": "Checkbox from Blade"
+  },
+  "Divider from Blade": {
+    "prefix": "Divider",
+    "body": [
+      "<Divider direction=\"${1|horizontal,vertical|}\" color=\"${2:tone.960}\" />"
+    ],
+    "description": "Divider from Blade"
+  },
+  "Flex from Blade": {
+    "prefix": "Flex",
+    "body": [
+      "<Flex flex={${1:1}} flexDirection=\"${2|column,row,column-reverse,row-reverse|}\" ",
+      "justifyContent=\"${3|flex-start,center,flex-end,space-around,space-between,space-evenly|}\"",
+      "alignItems=\"${4|flex-start,center,flex-end,baseline,stretch|}\">",
+      "  $5",
+      "</Flex>"
+    ],
+    "description": "Flex from Blade"
+  },
+  "Flex with View from Blade": {
+    "prefix": "FlexView",
+    "body": [
+      "<Flex flex={${1:1}} flexDirection=\"${2|column,row,column-reverse,row-reverse|}\" ",
+      "justifyContent=\"${3|flex-start,center,flex-end,space-around,space-between,space-evenly|}\"",
+      "alignItems=\"${4|flex-start,center,flex-end,baseline,stretch|}\">",
+      " <View>",
+      "   $5",
+      " </View>",
+      "</Flex>"
+    ],
+    "description": "Flex with View from Blade"
+  },
+  "Heading from Blade": {
+    "prefix": "Heading",
+    "body": [
+      "<Heading size=\"${1|medium,large,xlarge,xxlarge,xxxlarge|}\" color=\"$2\" maxLines={${3:1}} weight=\"$4\">",
+      "  $5",
+      "</Heading>"
+    ],
+    "description": "Heading from Blade"
+  },
+  "Icon from Blade": {
+    "prefix": "Icon",
+    "body": [
+      "<Icon name=\"$1\" size=\"${2|xsmall,small,medium,large,xlarge|}\" fill=\"$3\" />"
+    ],
+    "description": "Icon from Blade"
+  },
+  "Indicator from Blade": {
+    "prefix": "Indicator",
+    "body": [
+      "<Indicator variant=\"${1|positive,negative,information,warning,neutral|}\" fill=\"${2|solid,empty|}\"/>"
+    ],
+    "description": "Indicator from Blade"
+  },
+  "Link from Blade": {
+    "prefix": "Link",
+    "body": [
+      "<Link size=\"${1|xxsmall,xsmall,small,medium,large|}\" onClick={()=>{$2}}>",
+      " $3",
+      "</Link>"
+    ],
+    "description": "Link from Blade"
+  },
+  "Position from Blade": {
+    "prefix": "Position",
+    "body": [
+      "<Position position=\"${1|relative,absolute|}\" zIndex={${2:1}}>",
+      "   $3",
+      "</Position>"
+    ],
+    "description": "Position from Blade"
+  },
+  "ScrollView from Blade": {
+    "prefix": "ScrollView",
+    "body": ["<ScrollView>", "    $1", "</ScrollView>"],
+    "description": "ScrollView from Blade"
+  },
+  "Size from Blade": {
+    "prefix": "Size",
+    "body": ["<Size width={$1} height={$2}>", "  $3", "</Size>"],
+    "description": "Size from Blade"
+  },
+  "Space from Blade": {
+    "prefix": "Space",
+    "body": [
+      "<Space margin={[${1:0}]} padding={[${2:0}]}>",
+      "  $3",
+      "</Space>"
+    ],
+    "description": "Space from Blade"
+  },
+  "Space with margin from Blade": {
+    "prefix": "SpaceMargin",
+    "body": ["<Space margin={[${1:0}]}>", "  $2", "</Space>"],
+    "description": "Space with only margin"
+  },
+  "Space with Padding from Blade": {
+    "prefix": "SpacePadding",
+    "body": ["<Space padding={[${1:0}]}>", "  $2", "</Space>"],
+    "description": "Space with only padding"
+  },
+  "Space with View from Blade": {
+    "prefix": "SpaceView",
+    "body": [
+      "<Space margin={[${1:0}]} padding={[${2:0}]}>",
+      " <View>",
+      "   $3",
+      " </View>",
+      "</Space>"
+    ],
+    "description": "Space with View from Blade"
+  },
+  "Switch from Blade": {
+    "prefix": "Switch",
+    "body": [
+      "<Switch",
+      "  size=\"${1|medium,large|}\"",
+      "  disabled={${2|true,false|}}",
+      "  on={${3|true,false|}}",
+      "  defaultOn={${4|true,false|}}",
+      "  onChange={()=>{$5}}",
+      "  />"
+    ],
+    "description": "Switch from Blade"
+  },
+  "Text from Blade": {
+    "prefix": "Text",
+    "body": [
+      "<Text size=\"${1|xxsmall,xsmall,small,medium,large,xlarge,xxlarge,xxxlarge,xxxxlarge|}\"",
+      "weight=\"${2|light,regular,bold|}\"",
+      "color=\"$3\">",
+      "    $4",
+      "</Text>"
+    ],
+    "description": "Text from Blade"
+  },
+  "TextInput from Blade": {
+    "prefix": "TextInput",
+    "body": [
+      "<TextInput",
+      "    value={${1:\"\"}}",
+      "    width=\"${2|small,medium,auto|}\"",
+      "    label=\"$3\"",
+      "    variant=\"${4|filled,outlined|}\"",
+      "    errorText={${5:\"\"}}",
+      "    onChange={text => {}}",
+      "    keyboardType=\"${6|number-pad,decimal-pad,numeric,email-address,phone-pad|}\"",
+      "    onSubmitEditing={(): void => {}}",
+      "    autoCapitalize=\"${7|none,sentences,words,characters|}\"",
+      "    returnKeyType=\"${8|done,go,next,search,send|}\"",
+      "  />"
+    ],
+    "description": "TextInput from Blade"
+  },
+  "View from Blade": {
+    "prefix": "View",
+    "body": ["<View>", "  $1", "</View>"],
+    "description": "View from Blade"
+  }
+}
