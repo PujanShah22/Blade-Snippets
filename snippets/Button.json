@@ -1,0 +1,18 @@
+{
+  "Button from blade": {
+    "prefix": "Button",
+    "body": [
+      "<Button ",
+      "  variant=\"${1|primary,secondary,tertiary|}\"",
+      "  variantColor=\"$2\"",
+      "  size=\"${3|xsmall,small,medium,large|}\"",
+      "  disabled={${4|true,false|}}",
+      "  block={${5|true,false|}} ",
+      "  onClick={$6}>",
+      "    $7",
+      "</Button>"
+    ],
+    "description": ""
+  }
+}
+ 

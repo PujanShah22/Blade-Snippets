@@ -1,0 +1,11 @@
+{
+  "Badge from Blade": {
+    "prefix": "Badge",
+    "body": [
+      "<Badge variant=\"${1|positive,negative,information,warning,neutral|}\" fill=\"${2|subtle,solid|}\" shape=\"${3|stadium,rectangle|}\">",
+      "  {`${$4}`}",
+      "</Badge>"
+    ],
+    "description": "Badge from Blade"
+  }
+}

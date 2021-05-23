@@ -1,0 +1,7 @@
+{
+  "Heading from Blade": {
+    "prefix": "Heading",
+    "body": ["<Heading size=\"${1|medium,large,xlarge,xxlarge,xxxlarge|}\" color=\"$2\" maxLines={${3:1}} weight=\"$4\">", "  $5", "</Heading>"],
+    "description": "Heading from Blade"
+  }
+}

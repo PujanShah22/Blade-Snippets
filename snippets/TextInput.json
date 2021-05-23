@@ -1,0 +1,20 @@
+{
+  "TextInput from Blade": {
+    "prefix": "TextInput",
+    "body": [
+      "<TextInput",
+      "    value={${1:\"\"}}",
+      "    width=\"${2|small,medium,auto|}\"",
+      "    label=\"$3\"",
+      "    variant=\"${4|filled,outlined|}\"",
+      "    errorText={${5:\"\"}}",
+      "    onChange={text => {}}",
+      "    keyboardType=\"${6|number-pad,decimal-pad,numeric,email-address,phone-pad|}\"",
+      "    onSubmitEditing={(): void => {}}",
+      "    autoCapitalize=\"${7|none,sentences,words,characters|}\"",
+      "    returnKeyType=\"${8|done,go,next,search,send|}\"",
+      "  />"
+    ],
+    "description": "TextInput from Blade"
+  }
+}

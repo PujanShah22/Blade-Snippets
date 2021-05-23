@@ -1,0 +1,20 @@
+{
+  "Button with icon from Balde": {
+    "prefix": "ButtonIcon",
+    "body": [
+      "<Button ",
+      "  variant=\"${1|primary,secondary,tertiary|}\"",
+      "  variantColor=\"$2\"",
+      "  size=\"${3|xsmall,small,medium,large|}\"",
+      "  disabled={${4|true,false|}}",
+      "  block={${5|true,false|}}",
+      "  icon=\"$6\"",
+      "  iconAlign=\"${7|left,right|}\"",
+      "  onClick={$8}>",
+      "    $9",
+      "</Button>"
+    ],
+    "description": ""
+  }
+}
+ 

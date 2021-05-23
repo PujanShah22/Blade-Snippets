@@ -1,0 +1,7 @@
+{
+  "View from Blade": {
+    "prefix": "View",
+    "body": ["<View>", "  $1", "</View>"],
+    "description": "View from Blade"
+  }
+}

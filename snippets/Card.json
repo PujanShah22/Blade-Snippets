@@ -1,0 +1,7 @@
+{
+  "Card from Blade": {
+    "prefix": "Card",
+    "body": ["<Card variant=\"${1|shadowed,outlined|}\" backgroundColor=\"$2\" borderColor=\"$3\">", "  $4", "</Card>"],
+    "description": "Card from blade"
+  }
+}

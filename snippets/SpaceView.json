@@ -1,0 +1,13 @@
+{
+	"Space with View from Blade": {
+		"prefix": "SpaceView",
+		"body": [
+		  "<Space margin={[${1:0}]} padding={[${2:0}]}>",
+		  " <View>",
+      	  "   $3",
+      	  " </View>",
+		  "</Space>"
+		],
+		"description": "Space with View from Blade"
+	  }
+}

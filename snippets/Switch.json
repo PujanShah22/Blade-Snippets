@@ -1,0 +1,15 @@
+{
+  "Switch from Blade": {
+    "prefix": "Switch",
+    "body": [
+      "<Switch",
+      "  size=\"${1|medium,large|}\"",
+      "  disabled={${2|true,false|}}",
+      "  on={${3|true,false|}}",
+      "  defaultOn={${4|true,false|}}",
+      "  onChange={()=>{$5}}",
+      "  />"
+    ],
+    "description": "Switch from Blade"
+  }
+}

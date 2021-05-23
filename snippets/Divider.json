@@ -1,0 +1,7 @@
+{
+  "Divider from Blade": {
+    "prefix": "Divider",
+    "body": ["<Divider direction=\"${1|horizontal,vertical|}\" color=\"${2:tone.960}\" />"],
+    "description": "Divider from Blade"
+  }
+}
